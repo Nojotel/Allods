@@ -1,0 +1,122 @@
+:root {
+  --color-title: #416df4;
+  --color-subtitle: #671d00;
+  --color-description: #fff;
+  --color-button: #000;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container__title {
+  color: var(--color-title);
+  font-family: Roboto Condensed;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container__subtitle {
+  color: var(--color-subtitle);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  border: 1px solid rgba(103, 29, 0, 0.48);
+  background: rgba(0, 0, 0, 0.55);
+  width: 140px;
+  height: 23px;
+  padding: 4px;
+  margin-left: 11px;
+  float: right;
+  margin-bottom: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container__table_text {
+  border-radius: 1px;
+  border: 1px solid rgba(103, 29, 0, 0.48);
+  background: rgba(0, 0, 0, 0.55);
+
+  width: 632px;
+  height: 74px;
+  display: flex;
+  align-items: center;
+}
+.container__table_description {
+  margin-left: 19px;
+  color: var(--color-description);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 170px;
+}
+.container__table_noSubscription {
+  color: var(--color-description);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 24%;
+}
+.container__table_subscription {
+  color: var(--color-description);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 11%;
+  display: flex;
+  width: 151px;
+  flex-direction: column;
+  justify-content: center;
+}
+.container__buy {
+  display: grid;
+  grid-template-columns: 280px 200px;
+  grid-template-rows: 0px 165px 65px 45px;
+  grid-template-areas:
+    "img ."
+    "img ."
+    "img price"
+    "img but";
+  margin-top: 15px;
+}
+.container__price {
+  color: var(--color-description);
+  font-family: Roboto;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  grid-area: price;
+}
+.container__buy_img {
+  grid-area: img;
+}
+.container__button {
+  color: var(--color-button);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  border-radius: 7px;
+  background: #fcff00;
+  width: 180px;
+  height: 40px;
+  grid-area: but;
+}
