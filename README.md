@@ -1,5 +1,5 @@
-Инициализация проекта npm install
-Запустить npm start
+Инициализация проекта ####npm install
+Запустить ####npm start
 
 ![Скрин](https://github.com/Nojotel/Allods/blob/main/src/components/screencapture-localhost-3000-2023-11-06-01_39_29.png)
 
