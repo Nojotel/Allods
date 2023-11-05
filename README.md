@@ -1,6 +1,8 @@
 Инициализация проекта npm install
 Запустить npm start
 
+![Скрин](https://github.com/Nojotel/Allods/blob/main/src/components/screencapture-localhost-3000-2023-11-06-01_39_29.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
