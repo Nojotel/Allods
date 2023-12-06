@@ -1,0 +1,76 @@
+:root {
+  --color-text: #fff;
+}
+.container {
+  height: 892px;
+  background-image: url(../../public/Layer\ 157\ 1.png), url(../../public/Layer\ 157\ 2.png), url(../../public/Layer\ 157\ 3.png);
+  background-repeat: no-repeat;
+  background-position: left, right, bottom;
+}
+.container__glow {
+  height: 892px;
+  background: url(../../public/glow.png), url(../../public/glow\ back.png);
+  background-repeat: no-repeat;
+  background-position: center, bottom;
+  mix-blend-mode: screen;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.container__logo {
+  background-image: url(../../public/logo.png);
+  width: 376px;
+  height: 348px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  position: absolute;
+  left: 40%;
+  top: 0%;
+}
+.container__boxes {
+  background-image: url(../../public/boxes.png);
+  width: 766px;
+  height: 525px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  position: absolute;
+  left: 28%;
+  top: 25%;
+}
+.container__title {
+  color: var(--color-text);
+  text-align: center;
+  font-family: Roboto Condensed;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  bottom: 150px;
+  margin-bottom: 25px;
+}
+.container__text {
+  color: var(--color-text);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  bottom: 150px;
+}
+.container_img__woman {
+  background-image: url(../../public/MafiaCostume_2022\ woman.png);
+  width: 577px;
+  height: 874px;
+  position: absolute;
+  top: 2%;
+  left: -1%;
+}
+.container_img__man {
+  background-image: url(../../public/MafiaCostume_2022\ man.png);
+  width: 640px;
+  height: 874px;
+  position: absolute;
+  top: 2%;
+  left: 65%;
+}
