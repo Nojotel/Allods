@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Allods/static/css/main.a46e700c.css",
+    "main.js": "/Allods/static/js/main.dada0be9.js",
+    "static/media/Hue_Saturation 5 1.png": "/Allods/static/media/Hue_Saturation 5 1.c5b7889bb54c9ab3454e.png",
+    "static/media/glow.png": "/Allods/static/media/glow.3d2516ef191a174fffbe.png",
+    "static/media/boxes.png": "/Allods/static/media/boxes.3cf21ba79c33c56f8ec1.png",
+    "static/media/background wall.png": "/Allods/static/media/background wall.0e6118dd418acc5596cd.png",
+    "static/media/MafiaCostume_2022 man.png": "/Allods/static/media/MafiaCostume_2022 man.4fc8f316da36cd23aec7.png",
+    "static/media/MafiaCostume_2022 woman.png": "/Allods/static/media/MafiaCostume_2022 woman.d47e34d9d6bfc7484e73.png",
+    "static/media/Vito.png": "/Allods/static/media/Vito.ac25d497ba9109f40e99.png",
+    "static/media/box.png": "/Allods/static/media/box.ce58c18648142d6cd217.png",
+    "static/media/logo.png": "/Allods/static/media/logo.5a3f607092ca7f9b548d.png",
+    "static/media/glow back.png": "/Allods/static/media/glow back.91e71916a52062a5a2cf.png",
+    "index.html": "/Allods/index.html",
+    "main.a46e700c.css.map": "/Allods/static/css/main.a46e700c.css.map",
+    "main.dada0be9.js.map": "/Allods/static/js/main.dada0be9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a46e700c.css",
+    "static/js/main.dada0be9.js"
+  ]
+}
