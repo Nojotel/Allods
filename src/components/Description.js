@@ -2,7 +2,7 @@ import DescriptionClass from "./Description.module.css";
 import clock from "./Часы copy 1.png";
 import box from "./ТУЛБОКС 1.png";
 import ryne from "./хрупкая 1.png";
-import symbol from "./большой символ 1.png";
+import symbol from "./большой символ 1.png";
 import mana from "./мана 1.png";
 import module from "./модуль 1.png";
 import vito from "./вито 1.png";
